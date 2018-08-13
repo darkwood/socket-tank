@@ -1,4 +1,4 @@
-html, body, .App, #root {
+html, body, .app, #root {
   height: 100%;
 }
 body {
@@ -7,4 +7,13 @@ body {
   font-family: sans-serif;
   background:black;
   color:white;  
+}
+
+.header {
+  position: absolute;
+  background:#00000044;
+  padding:5px;
+  font-size: 14px;
+  text-align: center;
+  width:100%;
 }

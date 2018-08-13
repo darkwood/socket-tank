@@ -1,5 +1,34 @@
-canvas{
+#Board{
   background: linear-gradient(to bottom, #5b757a 1%,#13244c 100%);
   height: 100%;
-  width: 100%;
+}
+.tank {  
+  height: 20px;
+  width:60px;
+  border-radius: 3px;
+  position: absolute;
+  bottom:0px;
+  left:400px;
+}
+
+.tank-top {
+  position: relative;
+  left: 10px;
+  bottom:10px;
+  width:30px;
+  height:10px;
+}
+
+.tank-barrel {
+  position: relative;
+  left: 15px;
+  top:5px;
+  width:50px;
+  height:4px;
+  transform-origin: top left;
+  transform: rotate(-160deg);
+}
+
+.tank, .tank div {
+  background:red;
 }
